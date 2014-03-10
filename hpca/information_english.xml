@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<reference>
+			<subject name="Identifying patients who need palliative care">
+				<code>211</code>
+				<info>Patient has significant pain that cannot be controlled, patient has severe symptoms e.g. nausea, vomiting, shortness of breath, severe bleeding </info>
+			<info2></info2><info3></info3><info4></info4><info5></info5></subject>
+			<subject name="When is Palliative Care applicable?">
+				<code>212</code>
+				<info>In the course of illness for patients living with life-threatening illness and when the patient needs pain or symptom control to improve the quality of life</info>
+			<info2/><info3/><info4/><info5/></subject>
+			<subject name="When do you stop providing Palliative Care?">	
+				<code>213</code>
+				<info>Provide palliative care for as long as the patient needs it. Bereavement care to the family and children continues after the death of the patient if needed</info>
+			</subject>
+			<subject name="What to do with the patient if the pain is not getting better">
+				<code>221</code>
+				<info>If pain is not getting better, you can refer a patient to hospice for pain control.</info>
+			</subject>
+			<subject name="What to do if the patient is overwhelmed by pain">
+				<code>222</code>
+				<info>If a patient is in overwhelming pain, they should be referred to hospice or a hospital urgently.</info>
+			</subject>
+			<subject name="What to do if the patient is feeling nausea">
+				<code>223</code>
+				<info>(1/2)Search for cause. Avoid strong smells, especially food smells. Give patient small, bland snacks and fluids. Keep environment calm.</info>
+				<info2>(2/2)If nausea and vomiting does not stop, the patient can be admitted for strong medicine and fluids in a drip.</info2>
+			</subject>
+			<subject name="What to do if patient is having diarrhoea">
+				<code>224</code>
+				<info>(1/2)Replace fluids to prevent dehydration. HIV and CD4 testing recommended if longer than 2 weeks.</info>
+				<info2>(2/2)Rehydration fluid (oral): 1L boiled water. Let water cool. Add 8 tsp sugar and 1/2 tsp salt to the water.</info2>
+			</subject>
+			<subject name="What to do if the patient has the shortness of breath">
+				<code>225</code>
+				<info>Keep patient calm. Sit the person upright. Open windows and use fan. Refer for medicine to treat underlying cause and oxygen if necessary.</info>
+			</subject>
+			<subject name="What to do if the patient is coughing or vomiting up blood">
+				<code>226</code>
+				<info>Refer patient to hospital IMMEDIATELY.</info>
+			</subject>
+			<subject name="What to do if the patient has back pain with weak legs">
+				<code>227</code>
+				<info>Refer patient to hospital IMMEDIATELY.</info>
+			</subject>
+			<subject name="What to do if the patient is having seizures">
+				<code>228</code>
+				<info>Position patient on the left side on the ground. Refer patient to hospital IMMEDIATELY.</info>
+			</subject>
+			<subject name="What to do if the patient is confused">
+				<code>229</code>
+				<info>Refer patient to hospital IMMEDIATELY.</info>
+			</subject>
+			<subject name="How to clean a patient's wound: What you will need">
+				<code>2311</code>
+				<info>A basin of warm salt water. Swabs, gauze, bandage or plaster, ointment, bag for soiled dressed.</info>
+			</subject>
+			<subject name="How to clean a patient's wound: Preparation">
+				<code>2312</code>
+				<info>Ensure privacy. Explain what you are going to do. Wash hands completely and wear gloves. Remove soiled dressing.</info>
+			</subject>
+			<subject name="How to clean a patient's wound: Washing wounds">
+				<code>2313</code>
+				<info>Clean wounds with warm salty water and swabs. Gently dry wound with swabs. Apply ointment on gauze. Secure with bandage or plaster.</info>
+			</subject>
+			<subject name="How to clean a patient's wound: After washing">
+				<code>2314</code>
+				<info>Check patients comfort. Put soiled dressing into packet and discard packet safely; dressings can be burnt. Wash hands again with soap and water.</info>
+			</subject>
+			<subject name="How to care for a patient's mouth">
+				<code>232</code>
+				<info>Encourage  brushing of teeth regularly using salt water as mouth wash. Use mouth medicine regularly if prescribed.</info>
+			</subject>
+			<subject name="How to bathe the patient who is bedridden: What you will need">
+				<code>2331</code>
+				<info>A basin with warm water, soap, face-cloth,  towel, toothbrush and toothpaste, comb, toiletries, clean clothes, clean sheets or blankets.</info>
+			</subject>
+			<subject name="Preparation">
+				<code>2332</code>
+				<info>(1/2)Ensure privacy. Explain to the patient what you are going to do. Close windows and doors of the room. Give the patient</info>
+				<info2>(2/2)opportunity to empty bladder and bowels. Strip the bed except for bottom sheet. Undress patient.</info2>
+			</subject>
+			<subject name="Bathing the patient">
+				<code>2333</code>
+				<info>(1/2)Start cleaning the face first. Use enough soap. Make sure you remove all the soap when cleaning. Dry the skin thoroughly,</info>
+				<info2>(2/2)especially between the toes, underneath breasts, underarms, in groin, belly button.</info2>
+			</subject>
+			<subject name="After bathing">
+				<code>2334</code>
+				<info>(1/2)Dress the patient in clean clothes. Roll patient to one side of the bed to change blanket or sheet, then roll back onto</info>
+				<info2>(2/2)clean blanket or sheet,  Cover patient with blankets and explain that you are finished.</info2>
+			</subject>
+			<subject name="How  to  prevent  pressure sores from developing">
+				<code>234</code>
+				<info>(1/2)Help the patient move often so that pressure is reduced. Try to vary time sitting, lying flat, or lying propped up.</info>
+				<info2>(2/2)Support patient with pillows or blankets, especially between knees, under heels, and at the back.</info2>
+			</subject>
+			<subject name="How to treat sores that have developed">
+				<code>235</code>
+				<info>Use gentle dressing so that new tissue can grow. Watch for infection. Teach your patient to move regularly and shift weight from different parts of body.</info>
+			</subject>
+			<subject name="How to protect the spread of TB germs">
+				<code>241</code>
+				<info>Cover mouth when coughing or cough into elbow, ask patient to do the same. Open windows. Encourage people taking treatment to complete their 6 month course.</info>
+			</subject>
+			<subject name="How to  prevent the spread of HIV: General information">
+				<code>2421</code>
+				<info>Test yourself regularly for HIV/AIDS. If you come into contact with blood or body fluids, be aware that any person can be have HIV, even if they look healthy.</info>
+			</subject>
+			<subject name="Scarification">
+				<code>2422</code>
+				<info>Wear gloves. Sterilize knife or instrument before using by boiling in water or using bleach. If you can, throw away knife and use new one for next person.</info>
+			</subject>	
+			<subject name="Communicating with patients">
+				<code>251</code>
+				<info>Listen to what the patient is saying, notice the body language, know the stages of grief, denial, anger, bargaining, depression and acceptance.</info>
+			</subject>	
+			<subject name="Communicating with children">
+				<code>252</code>
+				<info>Understand that grief in children will be different than with adult patients.</info>
+			</subject>
+			<subject name="How to refer a patient">
+				<code>261</code>
+				<info>Call hospice nearest to you using the phone number of the contact person at the hospice.</info>
+			</subject>
+			<subject name="What conditions are appropriate for Palliative Care referral?">
+				<code>262</code>
+				<info>Understand that grief in children will be different than with adult patients.</info>
+			</subject>
+			<subject name="How to recognise when a patient is dying">
+				<code>263</code>
+				<info>(1/2)Patient sleeps more and might refuse to eat, Patient can?t swallow easily. Patient becomes unconscious.</info>
+				<info2>(2/2)Limbs become cold. Breathing slows and becomes gasping, rattle of fluids in the throat.</info2>
+			</subject>
+			<subject name="What to do when the patient is dying">
+				<code>264</code>
+				<info>(1/2)Keep the patient clean and comfortable, stop medicines when swallowing becomes difficult, sips of water while the patient is able to swallow, keep the</info>
+				<info2>(2/2)mouth moist and clean, stay near the patient, speak quietly and remember the patient may be able to hear even when they appear to be unconscious.</info2>
+			</subject>
+</reference>

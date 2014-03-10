@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<list>
+	<district name="Amajuba">
+		<code>0001</code>
+		<info>Newcastle Luthando Hospice
+		PO Box 82, Newcastle - 2940
+		034-3126736</info>
+	</district>
+	<district name="Zululand">
+		<code>0002</code>
+		<info>Vryheid Hospice
+		PO Box 71, Verulam - 4340
+		034-9809888</info>
+		</district>
+	<district name="Umkhanyakude">
+		<code>0003</code>
+		<info>Isibani Sethemba Hospice
+		PO Box 272, Ingwavuma - 3968
+		035-5910793</info>
+	</district>
+	<district name="Uthukela">
+		<code>0004</code>
+		<info>Estcourt Hospice
+		PO Box 75, Estcourt - 3310
+		036-3525634</info>
+	</district>
+	<district name="Umzinyathi">
+		<code>0005</code>
+		<info>Philanjalo Hospice
+		PO Box 195, Tugela Ferry - 3010
+		033-4930975</info>
+	</district>
+	<district name="Uthungulu">
+		<code>0006</code>
+		<info>Zululand Hospice Association
+		PO Box 62, Empangeni - 3880
+		035-7724953</info>
+	</district>
+	<district name="UMgungundlovu">
+		<code>0007</code>
+		<info>Msunduzi Hospice
+		PO Box 22023, Mayor's Walk - 3208
+		033-3441560</info>
+	</district>
+	<district name="iLembe">
+		<code>0008</code>
+		<info>Vulamehlo Hospice
+		PO Box 2782, Kwa-Dakuza - 4450
+		032-5596271</info>
+	</district>
+	<district name="eThekwini">
+		<code>0009</code>
+		<info>Highway Hospice
+		PO Box 28, Westville - 3630
+		031-2086110</info>
+	</district>
+	<district name="Sisonki">
+		<code>0010</code>
+		<info>Tender Loving Care Home
+		PO Box 44011, Kokstad - 4700
+		039–7274078</info>
+	</district>
+	<district name="Ugu">
+		<code>0011</code>
+		<info>South Coast Hospice
+		PO Box 504, Port Shepstone - 4240
+		039-6826156</info>
+	</district>
+</list>

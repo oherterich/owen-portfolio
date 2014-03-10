@@ -1,0 +1,9 @@
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;information_zulu.xml&quot; in /home/owenhert/public_html/smstest.php on line 8
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;information_english.xml&quot; in /home/owenhert/public_html/smstest.php on line 9
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;hospice_list.xml&quot; in /home/owenhert/public_html/smstest.php on line 10
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;questionlist.xml&quot; in /home/owenhert/public_html/smstest.php on line 13
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;numberlist.xml&quot; in /home/owenhert/public_html/smstest.php on line 16
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/owenhert/public_html/smstest.php on line 18
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/owenhert/public_html/smstest.php on line 24
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/owenhert/public_html/smstest.php on line 30
+[13-Aug-2013 16:26:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/owenhert/public_html/smstest.php:8) in /home/owenhert/public_html/smstest.php on line 51

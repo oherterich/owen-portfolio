@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<reference>
+	<subject name="Ukwazi ukubona iziguli ezidinga ukunakekelwa okusingatha kudambise izinhlungu Nezimpawu zokugula">
+		<code>111</code>
+		<info>Uma isiguli sinezinhlungu ezinkulu ezingasanqandeki noma ezingasalawuleki.</info>
+	<info2/><info3/><info4/><info5/></subject>
+	<subject name="Kuhlinzekwa nini noma kunikezwa nini ukunakekelwa okusingatha kudambise izinhlungu nezimpawu zokugula?">
+		<code>112</code>
+		<info>Uma isiguli sidinga kunqandwe izinhlungu nezimpawu zokugula ukuze kuthuthukiswe izingalo kuphila kwaso?</info>
+	</subject>
+	<subject name="Uyeka nini ukunikeza ukunakekela okusinga thakudambise izinhlungu nezimpawu zokugula?">
+		<code>113</code>
+		<info>Sinikeza isiguli ukunakekela okusingatha kudambise izinhlungu inqobonje uma sisa kudinga?</info>
+	</subject>
+	<subject name="Yini okumele yenziwe ezigulini uma izinhlungu zingabingcono?">
+		<code>121</code>
+				<info>(1/2) Uma izinhlungu zingabingcono, ungadlulisela isiguli sakho e hospice   (abanikezeli ngokunakekela okusingatha </info>
+		<info2>(2/2) kudambise izinhlungu nezimpawu zokugula) ukuze banqande izinhlungu.</info2>
+			</subject>
+	<subject name="Yini okumele yenziwe uma isiguli sibanjwe yizinhlungu ezixakile?">
+		<code>122</code>
+		<info>Uma isiguli sisezinhlungwini ezixakile, kumele sidluliselwe e hospice noma esibhedlela ngokushesha.</info>
+	</subject>
+	<subject name="Yini okumele yenziwe uma isiguli sizwa kucanuzela inhliziyo?">
+		<code>123</code>
+		<info>(1/3) Funa imbangela. Vimbela ukuba khona kwephunga elinamndla, ikakhulukazi iphunga lokudla. Nikeza isiguli kancane amasnekisi njengamashibsi </info>
+		<info2>(2/3)anganathesti kanye nezinto eziphuzwayo. Isiguli kumele sibe sendaweni enokuthula. Uma ukucanuzela kwenhliziyo nokuphalaza kunganqamuki, </info2>
+		<info3>(3/3)isiguli singalaliswa esibhedlela ukuze sithole imithi enamandla kanye namanzi ngediliphu.</info3>
+	</subject>
+	<subject name="Yini okumele yenziwe uma isiguli sihanjiswa isisu?">
+		<code>124</code>
+		<info>(1/3)Buyisela amanzi alahlekile emzimbeni ukuvimbela ukuphelelwa kakhulu ngamanzi emzimbeni. Ncoma ukuthi isiguli sihlolwe igciwane I HIV kanyena masotsha </info> 		    	
+		<info2>(2/3)omzimba ama CD4 uma isisu sesikhiphe isiguli ngaphezu kwamasonto amabili. Buyisela amanzi emzimbeni ngokunikeza isiguli isorol </info2>
+		<info3>(3/3)(okuyilitha yamanzi abilisiwe aphola kwafakwa amathisipuni awu 8 kashukela kanyenengxenye½ yethisipuni kasawoti ndawonye.</info3>
+	</subject>
+	<subject name="Yini okumele yenziwe uma isiguli siphelelwa ngumoya?">
+		<code>125</code>
+		<info>(1/2)Gcina isiguli sinokuthula sikhululekile. Umuntu mhlalise aqonde. Vula amafasitela usebenzise nefeni yokushayisa umoya. </info>
+		<info2>(2/2)Mdlulise ukuze ayothola imithi yokwelapha imbangela ecashileyo kuphelelwa umoya aphinde athole nomoya okuthiwa iokhsijini uma kunesidingo.</info2>
+	</subject>
+	<subject name="Yini okumele yenziwe uma isiguli sikhwehlela noma siphalaza igazi?">
+		<code>126</code>
+		<info>Dlulisela isiguli esibhedlela NGOKUSHESHA</info>
+	</subject>
+	<subject name="Yini okumele yenziwe uma isiguli siphethwe iqolo nemilenze engenamandla">
+		<code>127</code>
+		<info>Dlulisela isiguli esibhedlela NGOKUSHESHA</info>
+	</subject>
+	<subject name="Yini okumele yenziwe uma isiguli sidlikiza umzimba">
+		<code>128</code>
+		<info>Lalisa isiguli phansi emhlabathini ngohlangothi langawesokunxele</info>
+	</subject>
+	<subject name="Yini okumele yenziwe uma isiguli siphazamiseke ngokomqondo">
+		<code>129</code>
+		<info>Dlulisela isiguli esibhedlela NGOKUSHESHA</info>
+	</subject>
+	<subject name="Sihlanzwa kanjani isilonda sesiguli: Yini ozoyidinga">
+		<code>1311</code>
+		<info>(1/2)Indishi yokugeza enamanzi afudumele anosawoti, uvolo wokusula eceleni kwesilonda uma sigezwa, igozi,ibhandeshi, </info>
+		<info2>(2/2)ipulasta, umuthi wokugcoba isilonda ongamafutha, isikhwama sokufaka amabhandishi angxolile.</info2>
+			</subject>
+	<subject name="Sihlanzwa kanjani isilonda sesiguli: Amalungiselelo">
+		<code>1312</code>
+		<info>(1/2)Yenza isiqiniseko sokuthi isiguli sisendaweni esithekile emehlweni abantu, Sichazele ozokwenza,</info>
+		<info2>(2/2)Hlamba izandla zakho ngokuphelelebese ufaka amagilavu.Susa amabhandishi namagozi angcolile.</info2>
+			</subject>
+	<subject name="Sihlanzwa kanjani isilonda sesiguli: Ukuhlanzwa kwesilonda">
+		<code>1313</code>
+		<info>(1/2)Hlanza isilonda ngamanzi afudumele anosawoti usebenzisa uvolo. Yomisa inxeba ngovolo usebenzisa isandla esithambile.</info>
+		<info2>(2/2)Gcoba igozi ngomuthi ongamafutha bese uvala ngayo isilonda. Bopha ngebhandishi noma ipulasta.</info2>
+			</subject>
+	<subject name="Sihlanzwa kanjani isilonda sesiguli: Ngemuva kokuhlanzwa kwesilonda">
+		<code>1314</code>
+		<info>(1/2)Bheka ukuthi isiguli sihleli kahle noma silele kahle.Faka igozi namabhandishi angcolile ephaketheni bese ulahla</info>
+		<info2>(2/2)iphakethe endaweni ephephile.Amabhandishi namagozi kungashiswa.Phinda uhlambe izandla ngamanzi nensipho.</info2>
+			</subject>
+	<subject name="Unakekelwa kanjani umlomo wesiguli?">
+		<code>132</code>
+		<info>(1/2)Khuthaza isiguli ukugeza amazinyo njalo ngebhulashi lamazinyo kusetshenziswa amanzi anosawoti (okuyithisipuni kasawoti ezinkomishini ezimbili</info>
+		<info2>(2/2)zamanzi abiliswe aphinde apholiswa) njengesihlanzamlomo. Sebenzisa umuthi wokuxubha njalo uma ugunyazwe udokotela.</info2>
+			</subject>
+	<subject name="Sigezwa kanjani isiguli esingasavuki embhedeni: Yini ozoyidinga">
+		<code>1331</code>
+		<info>(1/2)Indishi yokugeza enamanzi afudumele, insipho, indwangu yokugeza ubuso, ithawula, ibhula shilo kuxubha nomuthi wokuxubha, ikamu, izinto zokugcoba,</info>
+		<info2>(2/2)ukhilimu wokushefa. Izifutho ezinamakha anuka kamnandi, izingubo ezihlanzekile, amashidi ahlanzekile nezingubo zokulala.</info2>
+			</subject>
+	<subject name="Sigezwa kanjani isiguli esingasavuki embhedeni: Amalungiselelo">
+		<code>1332</code>
+		<info>(1/2)Yenza isiqinise kosokuthi isiguli sisendaweni esithekile emehlweni abantu, Chazela isiguli ozokwenza. Vala amafasitela neminyango.</info>
+		<info2>(2/2)Nikeza isiguli ithuba lokuthi sichithe amanzi (sichame) noma sizikhulule. Susa zonke izingubo embhedeni ngaphandle kweshidi elingaphansi. Khumula isiguli.</info2>
+			</subject>
+	<subject name="Sigezwa kanjani isiguli esingasavuki embhedeni: Ukugeza isiguli">
+		<code>1333</code>
+		<info>(1/2)Qala ngobuso, Sebenzisa insipho eyanele, Yenza isiqiniseko sokuthi uyisusa yonke insipho ebusweni. Sula isikhumba some kahle,</info>
+		<info2>(2/2)ikakhulukazi phakathi kwezinzwane, ngaphansi kwamabele, emakhwapheni naphakathi kwamathanga, phansi kwesisu nasezinqeni.</info2>
+			</subject>
+	<subject name="Sigezwa kanjani isiguli esingasavuki embhedeni: Emvakokugeza">
+		<code>1334</code>
+		<info>(1/2)Gqokisa isiguli izingubo ezihlanzekile. Ginqela isiguli ngakolunye uhlangothi lombhede ukuze ushintshe ubhulanketh inomaishidi,</info>
+		<info2>(2/2)bese uphinda usiginqe laphezu kobhulankethi noma ishidi elihlanzekile. Mbathisa isiguli ngobhulankethi bese uyachaza ukuthi usuqedile.</info2>
+			</subject>
+	<subject name="Zingavinjelwa kanjani izilonda ezivela uma isiguli singasakwazi ukuvuka embhedeni?">
+		<code>134</code>
+		<info>(1/3)Siza isiguli ngokuthi sinyakaze njalo ukunciphisa ukucindezeleka kwesikhumba isikhathi eside. Shintshanisa izikhathi,</info>
+		<info2>(2/3)njengokuthi ngesinye isikhathi kumele isiguli silale ngomhlane, Ngesinye isikhathi sihlale Ngesinye isikhathi silale kodwa sithi ukuphakanyiswa kancane esingenhla.</info2>
+		<info3>(3/3)Yeseka isiguli ngemiqamelo nobhulankethi, ikakhulukazi phakathi kwamadolo, ngaphansi kwezithende kanye nasemhlane.</info3>
+			<info4/><info5/></subject>
+	<subject name="Zelashwa kanjani izilonda eseziqalile?">
+		<code>135</code>
+		<info>(1/2)Sebenzisa izinto zokubopha isilonda ezithambile ukuze isicubu esisha sithole ithuba lokukhula. Qaphela  amagciwane.</info>
+		<info2>(2/2)Fundisa isiguli ngokunyakaza siphenduke njalo nokususa isisindo somzimba ezindaweni ezahlukahlukene zomzimba.</info2>
+			</subject>
+	<subject name="Ungakuvikela kanjani ukusabalala Kwamagciwane e TB?">
+		<code>141</code>
+		<info>(1/2)Mboza umlomo uma ukhwehlela noma khwehlelela endololwaneni, Cela nesiguli sense kanjalo. Vula amafasitela. Khuthaza abantu</info>
+		<info2>(2/2)abadla amaphilisi e TB ukuthi kumele bawadle bangawayeki kuze kuphele izinyanga eziyisithupha.</info2>
+			</subject>
+	<subject name="Kuvikelwa kanjani ukusabalala kweHIV: Ulwazi olwejwayelekile">
+		<code>1421</code>
+		<info>(1/2)Hlala ngokuhlolela igciwane I HIV. Uma ungumuntu ohlala ngokuthintana negazi noma amanzi aphuma emzimbeni womuntu,</info>
+		<info2>(2/2)kumele ukuqaphele ukuthi noma imuphi umuntu angabanegciwane I HIV noma ngabe ubukeka ephila.</info2>
+			</subject>
+	<subject name="Kuvikelwa kanjani ukusabalala kweHIV: Ukugcaba">
+		<code>1422</code>
+		<info>(1/3)Faka amagilavu. Bulala amagciwane kwinsingo yakho noma kwizinto zakho osebenzangazo abantu ngaphambi kokuthi uphinde</info>
+		<info2>(2/3)uzisebenzise ngokuzibilisa emanzini noma usebenzise I bhlishi ingxenye eyodwa yebhlishi uyifaka ezingxenyeni</info2>
+		<info3>(3/3)eziyisithupha zamanzi. Lahla ileza uma sewuyisebenzisile bese usebenzisa entsha kumuntu olandelayo.</info3>
+	</subject>
+	<subject name="Ukuxhumana neziguli">
+		<code>151</code>
+		<info>(1/5)Lalela lokho isiguli esikushoyo, qaphela esikukhulumayo ngomzimba waso, uphinde wazi nezigaba isiguli esidlula kuzona uma</info>
+		<info2>(2/5)sinobuhlungu obunzima bomphefumulo ngenxayokugula. 1)kwisigaba sokuqala isiguli sishaya sengathi akukho nkinga konke kuhamb akahle,</info2>
+ 		<info3>(3/5) 2) kwisigaba sesibili isiguli sibanolaka nentukuthelo, 3) Kwisigaba sesithathu isiguli singasola umdali noma amadlozi</info3>
+		<info4>(4/5) njengokuthi ukubesenza (isiguli) umsebenzi ngabe asikho ngaphansi kwalesimo 4). Kwisigaba sesine isiguli sizizwa umoya ushona phansi sinosizo</info4>
+		<info5>(5/5) 5). Kwisigaba sokugcina sesihlanu isiguli siyasemukela isimo esinzima sokugula kwaso.</info5>
+	</subject>
+	<subject name="Ukuxhumana nabantwana">
+		<code>152</code>
+		<info>Qonda ukuthi ubuhlungu obunzima bomphefumulo ngenxa yokugula kubantwana kuzohluka kunokwabantu abadala</info>
+	</subject>
+	<subject name="Sidluliswa kanjani isiguli">
+		<code>161</code>
+		<info>Shayela ucingo abantu baseHospice abaseduze nawe usebenzisa inombolo yocingo yomuntu okuxhunywana nayekwaHospice.</info>
+	</subject>
+	<subject name="Iziphi izifo ezifanele ukudluliselwa kunakekelo olusingatha ludambise izinhlungu nezimpawu zokugula.">
+		<code>162</code>
+		<info>Izinhlungu nezimpawu ezibalwe kuluhla olungenhla.</info>
+	</subject>
+	<subject name="Ubonakanjani ukuthi isiguli sesiyahamba emhlabeni">
+		<code>163</code>
+		<info>(1/2)Isiguli silala kakhulu, singanqaba ukudla, asikwazi ukugwinya kalula, siyaquleka, izingalo nemilenze kuqala ukubanda,</info>
+		<info2>(2/2)siphefumula kancane, siqale ukuphelelwa umoya, kunamanzi ashaya emphinjeni.</info2>
+			</subject>
+	<subject name="Yini okumele yenziwe uma isiguli sesihamba emhlabeni">
+		<code>164</code>
+		<info>(1/3)Gcina isiguli sihlanzekile silele kahle, misa ukunikezwa kwemithi uma sekunzima ukugwinya, habulisa isiguli kancane amanzi ngenkathi sisakwazi ukugwinya.</info>
+		<info2>(2/3)Gcina umlomo wesiguli uswakeme uhlanzekile, hlala eduze kwesiguli, khulumela phansi ukhumbule</info2>
+		<info3>(3/3)ukuthi isiguli kungenzeka sikuzwe noma ngabe sibukeka siqulekile</info3>
+			</subject>
+</reference>

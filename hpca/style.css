@@ -1,0 +1,302 @@
+* {margin: 0; padding: 0;}
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url("background.png");
+}
+
+#wrapper {
+	width: 960px;
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+header {
+	width: 960px;
+	height: 200px;
+	background-image: url("header.png");
+}
+
+/******* GENERAL *******/
+h2 {
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-bottom: 5px;
+	font-size: 1.1em;
+	width: 100%;
+}
+
+h4 {
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p {
+	font-size: 0.9em;
+	margin-bottom: 5px;
+}
+
+/******* LINKS *******/
+
+a:link {
+	color: #099;
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+a:visited {
+	color: #066;
+}
+
+a:hover {
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+	-webkit-transition: box-shadow .3s linear;
+	transition: box-shadow .3s linear;
+}
+
+
+/***** NAV STUFF *****/
+
+nav {
+	width: 960px;
+	margin: 10px auto;
+	background-color: #DEEDEB;
+}
+
+nav>ul {
+	list-style-type: none;
+	padding: 10px 0;
+	/*background-image: url("background.png");*/
+}
+
+nav>ul>li {
+	display: inline;
+	font-size: 1.3em;
+	text-decoration: none;
+	border: none;
+	letter-spacing: 0.05em;
+	margin: 0 62px;
+	padding: 0;
+}
+
+nav>ul>li>a:link {
+	color: #033;
+	text-decoration: none;
+	padding: 0;
+}
+
+nav>ul>li>a:hover {
+	color: #0aa;
+	-webkit-transition: color .2s linear;
+	transition: color .2s linear;
+	text-shadow: none;
+}
+
+nav>ul>li:visited {
+	color: #033;
+}
+
+/******* Section ********/
+
+section {
+	background-color: #fff;
+}
+
+section article {
+	background-color: #fff;
+	padding: 10px 5px;
+}
+
+
+section footer {
+	clear: both;
+	font-size: 0.7em;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/******* CLASSES *******/
+
+.half {
+	width: 470px;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+ul li {
+	padding: 0 0 5px 15px;
+	list-style-position: inside;
+}
+
+.materials {
+	width: 310px;
+	padding: 10px;
+	margin-left: 620px;
+	background: #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+.instructions h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	border-bottom: 2px dotted #bbb;
+}
+
+.instructions h3 {
+	margin: 0;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	color: #555;
+	font-size: 1em;
+	font-style: italic;
+}
+
+#allmessages {
+	width: 420px;
+	float: left;
+}
+
+#commoncode {
+	width: 235px;
+	float: right;
+}
+
+#commonphone {
+	width: 275px;
+	margin-left: 430px;
+}
+
+#questions {
+	width: 520px;
+	margin-left: 430px;
+	clear: right;
+}
+
+#locations {
+	width: 520px;
+	margin-left: 430px;
+}
+
+#pic-full {
+	margin: 0;
+	padding: 0;
+}
+
+/***** FORMS ********/
+
+form {
+	padding: 10px;
+	background-color: #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input {
+	width:375px;
+	display:block;
+	border: 1px solid #999;
+	height: 20px;
+	margin: 5px 0;
+	font-size: 0.9em;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+textarea {
+	width:375px;
+	height: 80px;
+	display:block;
+	border: 1px solid #999;
+	margin: 5px 0;
+	font-size: 0.9em;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+select {
+	width: 220px;
+	background-color: #fff;
+	padding: 5px;
+	border: 2px outset #ccc;
+	font-size: 0.9em;
+}
+
+.submitbutton {
+	width: 65px;
+	height: 25px;
+	background-color: #066;
+	color: #fff;
+	font-size: 0.7em;
+}
+
+.submitbutton:hover {
+	width: 80px;
+	background-color: #088;
+	-webkit-transition: background-color .1s linear, width .1s linear;
+	transition: background-color .1s linear, width .1s linear;
+}
+
+table {
+	width: 100%;
+}
+
+table tr:nth-child(even) {
+	background: #f4f4f4;
+}
+
+table tr:nth-child(odd) {
+	background: #fcfcfc;
+}
+
+th {
+	font-weight: bold;
+	font-size: 0.9em;
+	border: 1px solid #bbb;
+	border-collapse: collapse;
+	padding: 5px;
+	background: #006666;
+	color: #fff;
+	text-align: left;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+td {
+	border: 1px solid #bbb;
+	border-collapse: collapse;
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align: left;
+	font-size: 0.8em;
+}
