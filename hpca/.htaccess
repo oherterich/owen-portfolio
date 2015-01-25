@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Palliative Care Information System"
-AuthUserFile "/home/owenhert/.htpasswds/public_html/hpca/passwd"
-require valid-user

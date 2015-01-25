@@ -1,0 +1,129 @@
+/****************************************************/
+/* Smartphones (portrait and landscape) ----------- */
+/****************************************************/
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  body, html { width: 100%;}
+
+  #sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  #sidebar img {
+    width: 20%;
+    padding: 5%;
+    margin: 0 auto;
+    border: none;
+  }
+
+  #sidebar ul {
+    margin: 1% auto;
+  }
+
+  #sidebar li {
+    padding: 4% 0 3% 0;
+  }
+
+  #sidebar li:hover {
+    color: #fff;
+    background: #34a969;
+  }
+
+  #sort {
+    text-align: center;
+    margin: 10% auto 5% auto;
+    margin-left: 0%;
+  }
+
+  #projects {
+    width: 92%;
+    position: relative;
+    margin-left: 0%;
+    padding: 0% 4%;
+  }
+
+  #projects article {
+    width: 70%;
+    padding: 5% 15%;
+    margin: 0 auto;
+  }
+
+  .cover {
+    display: none;
+  }
+
+  #about {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+    padding: 2% 0%;
+  }
+
+  #about h1 {
+    font-size: 1.8rem;
+  }
+
+  #about h2 {
+    font-size: 1.2rem;
+  }
+
+  #contact #icons img {
+    padding: 0;
+    width: auto;
+    margin: 0 1.04%;
+  }
+
+  #icons {
+    margin: 2% 0;
+  }
+
+#contact #icons img {
+    margin: 0 1%;
+    padding: 0;
+    width: 14%;
+  }
+
+  #project {
+    width: 100%;
+    margin-left: 0%;
+    padding: 0;
+  }
+
+  #project h3 {
+    margin-bottom: 6%;
+  }
+
+  #project p {
+    margin: 3% 5.1667%;
+  }
+
+  .documentation {
+    height: auto;
+  }
+
+  #all-posts {
+    width: 92%;
+    margin-left: 0%;
+    padding: 0 4%;
+  }
+
+  .post {
+    width: 92%;
+    margin-left: 0%;
+    padding: 0;
+  }
+
+  .post h3 {
+    margin-bottom: 6%;
+  }
+
+  .post p {
+    margin: 3% 5.1667%;
+  }
+
+  .post img {
+    height: auto;
+  }
+}

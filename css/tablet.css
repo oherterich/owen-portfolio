@@ -1,0 +1,32 @@
+/***********************************************/
+/* iPads (portrait and landscape) ----------- */
+/**********************************************/
+@media screen and (max-width: 1024px) {
+  #sidebar img {
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+    padding: 20% 20%;
+    border-bottom: 1px solid #eee;
+  }
+
+  #sidebar li:active {
+    background-color: #fff;
+    color: #34a969;
+    cursor: pointer;
+    
+    transition: 0.1s background-color, 0.1s color;
+  }
+
+  #projects article {
+    width: 38%;
+    position: relative;
+    float: left;
+    margin: 3.4445% 3.4445%;
+  }
+
+  .cover:active {
+    background-color: rgba(102, 153, 51, 0.9);
+    transition: 0.2s background-color;
+  }
+}
