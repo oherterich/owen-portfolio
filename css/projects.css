@@ -27,6 +27,7 @@ a:link, a:visited {
 #content {
 	width: 100%;
 	font-family: Franklin-Book, Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
 }
 
 #sidebar {
@@ -40,14 +41,13 @@ a:link, a:visited {
 
 #sidebar img {
 	display: block;
-	width: auto;
+	max-width: 50%;
 	margin: 0 auto;
 	padding: 20% 25%;
-	border-bottom: 1px solid #eee;
 }
 
 #sidebar ul {
-	margin: 13% auto;
+	margin: 0 auto;
 	width: 100%;
 }
 
@@ -66,9 +66,12 @@ a:link, a:visited {
 	background-color: #fff;
 	color: #34a969;
 	cursor: pointer;
-
 	
 	transition: 0.1s background-color, 0.1s color;
+}
+
+#menu-button {
+	display: none;
 }
 
 #sidebar .active {

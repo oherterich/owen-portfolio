@@ -27,6 +27,7 @@ a:link, a:visited {
 #content {
 	width: 100%;
 	font-family: Franklin-Book, Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
 }
 
 #sidebar {

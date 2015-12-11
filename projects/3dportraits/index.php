@@ -9,6 +9,8 @@
 		<link rel='icon' href='../../img/icons/favicon.png' type='image/png'>
 
 		<meta name="viewport" content="width=device-width">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="content">
@@ -29,101 +31,103 @@
 			</section>
 		</div>
 
-		<script src="../js/main.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="../../js/main.js"></script>
 		<script>
-		var images = {};
-		var names = $(".theImage");
+		$(document).ready(function() {
+			var images = {};
+			var names = $(".theImage");
 
-		var spin = true;
-		var metaSpin = true;
-		var forward = false;
-		var unwindingBacktoZero = false;
-		var counter = 0;
-		var spinRate = 100;
-		var numberOfFrames = 48;
-		var frameNumber = 0;
+			var spin = true;
+			var metaSpin = true;
+			var forward = false;
+			var unwindingBacktoZero = false;
+			var counter = 0;
+			var spinRate = 100;
+			var numberOfFrames = 48;
+			var frameNumber = 0;
 
-		// load up images for each person
-	    var slug = "owen-herterich";
-	    
-	    images[slug] = [];
-	    var url = "./3dportraits-";
+			// load up images for each person
+		    var slug = "owen-herterich";
 
-	    for (var j = 1; j <= numberOfFrames; j++) {
-	        var src = url + j + ".jpg";
-	        images[slug].push(src);
+		    images[slug] = [];
+		    var url = "./3dportraits-";
 
-	        // preload the image into a new img element
-	        var elem = document.createElement('img')
-	        elem.src = src;
-	    }
+		    for (var j = 1; j <= numberOfFrames; j++) {
+		        var src = url + j + ".jpg";
+		        images[slug].push(src);
 
-		//move image when you hover over it
-		$(".theImage").mousemove(function(e) { 
-		    // var slug = $(this).attr('data-slug')
-
-		    var offset = $(this).offset();
-		    var xLocInImage = e.pageX - offset.left;
-
-		    var interval = $(this).width() / numberOfFrames;
-		    frameNumber = parseInt(xLocInImage / interval);  
-
-		    for (var i = 0; i < names.length; i++) {
-		        $(".theImage").attr("src", images["owen-herterich"][frameNumber]);
-		    }
-		});
-
-		//dont let the image auto spin when you are hovering
-		$(".theImage").hover(function(){
-		    spin = !spin;
-		});
-
-		//unwind back to zero when you move off
-		$(".theImage").mouseout(function(){
-		    unwindingBacktoZero = true;
-
-		});
-
-		//unwind
-		setInterval(function () {
-		    if (unwindingBacktoZero && spin) {
-		        frameNumber--;
-		        if (frameNumber < 1)  { unwindingBacktoZero = false; }
-		        
-		        for (var i = 0; i < names.length; i++) {
-		            var slug = $(names[i]).attr('data-slug');
-		            $(".theImage").attr("src", images["owen-herterich"][frameNumber]);
-		        }
-		    }
-		}, spinRate+20);
-
-		//spin back and forth for ever
-		setInterval(function () {
-		    if (frameNumber < 1) { frameNumber = numberOfFrames - 1; }
-		    else if (frameNumber > numberOfFrames - 2) { frameNumber = 0; }
-		    if (spin && !unwindingBacktoZero && metaSpin) {
-		        if (forward){
-		            frameNumber++;
-		        }
-		        else{
-		            frameNumber--;
-		        }
-		        for (var i = 0; i < names.length; i++) {
-		            var slug = $(names[i]).attr('data-slug');
-		            $(".theImage").attr("src", images["owen-herterich"][frameNumber]);
-		        }
+		        // preload the image into a new img element
+		        var elem = document.createElement('img')
+		        elem.src = src;
 		    }
 
-		    if (frameNumber == 7 || frameNumber == 41) { forward = !forward; }
-		    if (metaSpin) { counter += spinRate; }
-		    if (counter > 3200 && frameNumber == 0) { metaSpin = false; counter = 0; } 
-		}, spinRate);
+			//move image when you hover over it
+			$(".theImage").mousemove(function(e) { 
+			    // var slug = $(this).attr('data-slug')
+
+			    var offset = $(this).offset();
+			    var xLocInImage = e.pageX - offset.left;
+
+			    var interval = $(this).width() / numberOfFrames;
+			    frameNumber = parseInt(xLocInImage / interval);  
+
+			    for (var i = 0; i < names.length; i++) {
+			        $(".theImage").attr("src", images["owen-herterich"][frameNumber]);
+			    }
+			});
+
+			//dont let the image auto spin when you are hovering
+			$(".theImage").hover(function(){
+			    spin = !spin;
+			});
+
+			//unwind back to zero when you move off
+			$(".theImage").mouseout(function(){
+			    unwindingBacktoZero = true;
+
+			});
+
+			//unwind
+			setInterval(function () {
+			    if (unwindingBacktoZero && spin) {
+			        frameNumber--;
+			        if (frameNumber < 1)  { unwindingBacktoZero = false; }
+			        
+			        for (var i = 0; i < names.length; i++) {
+			            var slug = $(names[i]).attr('data-slug');
+			            $(".theImage").attr("src", images["owen-herterich"][frameNumber]);
+			        }
+			    }
+			}, spinRate+20);
+
+			//spin back and forth for ever
+			setInterval(function () {
+			    if (frameNumber < 1) { frameNumber = numberOfFrames - 1; }
+			    else if (frameNumber > numberOfFrames - 2) { frameNumber = 0; }
+			    if (spin && !unwindingBacktoZero && metaSpin) {
+			        if (forward){
+			            frameNumber++;
+			        }
+			        else{
+			            frameNumber--;
+			        }
+			        for (var i = 0; i < names.length; i++) {
+			            var slug = $(names[i]).attr('data-slug');
+			            $(".theImage").attr("src", images["owen-herterich"][frameNumber]);
+			        }
+			    }
+
+			    if (frameNumber == 7 || frameNumber == 41) { forward = !forward; }
+			    if (metaSpin) { counter += spinRate; }
+			    if (counter > 3200 && frameNumber == 0) { metaSpin = false; counter = 0; } 
+			}, spinRate);
 
 
-		setInterval(function () {
-		    metaSpin = !metaSpin;
-		}, 30000);
+			setInterval(function () {
+			    metaSpin = !metaSpin;
+			}, 30000);
+		});
 		</script>
 	</body>
 </html>

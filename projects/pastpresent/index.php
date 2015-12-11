@@ -9,6 +9,8 @@
 		<link rel='icon' href='../../img/icons/favicon.png' type='image/png'>
 
 		<meta name="viewport" content="width=device-width">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="content">
@@ -31,6 +33,6 @@
 			</section>
 		</div>
 
-		<script src="js/main.js"></script>
+		<script src="../../js/main.js"></script>
 	</body>
 </html>
